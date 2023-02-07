@@ -1,7 +1,7 @@
 {
   "name": "A Silver Key",
   "symbol": "DKEY",
-  "description": "An ornate design, with the initials H.P. engraved at the top",
+  "description": "An ornate design, with the initials H.P. engraved at the top.",
   "seller_fee_basis_points": 0,
   "image": "https://raw.githubusercontent.com/daoplays/nft_metadata/main/Key.png",
   "external_url": "https://sol-dungeon.com",
