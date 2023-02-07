@@ -3,7 +3,7 @@
   "symbol": "DKEY",
   "description": "A simple design, but some of its original lustre still shines through.",
   "seller_fee_basis_points": 0,
-  "image": "https://github.com/daoplays/nft_metadata/blob/main/Key.png",
+  "image": "https://raw.githubusercontent.com/daoplays/nft_metadata/main/Key.png",
   "external_url": "https://sol-dungeon.com",
   "attributes": [
     {
@@ -26,11 +26,11 @@
   "properties": {
     "files": [
       {
-        "uri": "https://github.com/daoplays/nft_metadata/blob/main/Key.png",
+        "uri": "https://raw.githubusercontent.com/daoplays/nft_metadata/main/Key.png",
         "type": "image/png"
       },
       {
-        "uri": "https://github.com/daoplays/nft_metadata/blob/main/Key.png",
+        "uri": "https://raw.githubusercontent.com/daoplays/nft_metadata/main/Key.png",
         "type": "image/png",
         "cdn": true
       }
