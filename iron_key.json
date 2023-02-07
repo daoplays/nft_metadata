@@ -1,7 +1,7 @@
 {
   "name": "An Iron Key",
   "symbol": "DKEY",
-  "description": "Its battered appearence belies its true value",
+  "description": "Its battered appearence belies its true value.",
   "seller_fee_basis_points": 0,
   "image": "https://raw.githubusercontent.com/daoplays/nft_metadata/main/Key.png",
   "external_url": "https://sol-dungeon.com",
