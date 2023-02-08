@@ -3,20 +3,12 @@
   "symbol": "DKEY",
   "description": "A simple design, but some of its original lustre still shines through.",
   "seller_fee_basis_points": 0,
-  "image": "https://raw.githubusercontent.com/daoplays/nft_metadata/main/Key.png",
+  "image": "https://raw.githubusercontent.com/daoplays/nft_metadata/main/Bronze_Key.gif",
   "external_url": "https://sol-dungeon.com",
   "attributes": [
     {
-      "trait_type": "web",
-      "value": "yes"
-    },
-    {
-      "trait_type": "mobile",
-      "value": "yes"
-   },
-   {
-      "trait_type": "extension",
-      "value": "yes"
+      "trait_type": "material",
+      "value": "bronze"
     }
   ],
   "collection": {
@@ -26,12 +18,12 @@
   "properties": {
     "files": [
       {
-        "uri": "https://raw.githubusercontent.com/daoplays/nft_metadata/main/Key.png",
-        "type": "image/png"
+        "uri": "https://raw.githubusercontent.com/daoplays/nft_metadata/main/Bronze_Key.gif",
+        "type": "image/gif"
       },
       {
-        "uri": "https://raw.githubusercontent.com/daoplays/nft_metadata/main/Key.png",
-        "type": "image/png",
+        "uri": "https://raw.githubusercontent.com/daoplays/nft_metadata/main/Bronze_Key.gif",
+        "type": "image/gif",
         "cdn": true
       }
     ],
