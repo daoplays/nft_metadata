@@ -6,18 +6,6 @@
   "image": "https://raw.githubusercontent.com/daoplays/nft_metadata/main/Key.png",
   "external_url": "https://sol-dungeon.com",
   "attributes": [
-    {
-      "trait_type": "web",
-      "value": "yes"
-    },
-    {
-      "trait_type": "mobile",
-      "value": "yes"
-   },
-   {
-      "trait_type": "extension",
-      "value": "yes"
-    }
   ],
   "collection": {
      "name": "Dungeon Key Collection",
@@ -37,6 +25,10 @@
     ],
     "category": "image",
     "creators": [
+      {
+        "address": "DqRrP9F8f169Tr3PSsLazsindgGyKgZW5LbjGAAhXv6R",
+        "share": 100
+      }
     ]
   }
 }
