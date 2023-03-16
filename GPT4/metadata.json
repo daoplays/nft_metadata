@@ -1,18 +1,18 @@
 {
     "name": "DaveDots#1",
     "symbol": "DD",
-    "animation_url": "https://raw.githubusercontent.com/daoplays/nft_metadata/main/GPT4/DaveDots_1.html?ext=html",
+    "animation_url": "https://rawcdn.githack.com/daoplays/nft_metadata/c9ed93e662e12538ac0e8c044b9fe3ce0faa317e/GPT4/DaveDots_1.html?ext=html",
     "description": "GPT4 Generated NFT",
     "external_url": "",
     "seller_fee_basis_points": 500,
     "properties": {
         "files": [
             {
-                "uri": "https://raw.githubusercontent.com/daoplays/nft_metadata/main/GPT4/DaveDots_1.html?ext=html",
+                "uri": "https://rawcdn.githack.com/daoplays/nft_metadata/c9ed93e662e12538ac0e8c044b9fe3ce0faa317e/GPT4/DaveDots_1.html?ext=html",
                 "type": "html"
             },
             {
-                "uri": "https://raw.githubusercontent.com/daoplays/nft_metadata/main/GPT4/DaveDots_1.html?ext=html",
+                "uri": "https://rawcdn.githack.com/daoplays/nft_metadata/c9ed93e662e12538ac0e8c044b9fe3ce0faa317e/GPT4/DaveDots_1.html?ext=html",
                 "type": "html",
                 "cdn": true
             }
