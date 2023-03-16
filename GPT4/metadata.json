@@ -8,11 +8,11 @@
     "properties": {
         "files": [
             {
-                "uri": "https://raw.githubusercontent.com/daoplays/nft_metadata/main/GPT4/DaveDots_1.html",
+                "uri": "https://raw.githubusercontent.com/daoplays/nft_metadata/main/GPT4/DaveDots_1.html?ext=html",
                 "type": "html"
             },
             {
-                "uri": "https://raw.githubusercontent.com/daoplays/nft_metadata/main/GPT4/DaveDots_1.html",
+                "uri": "https://raw.githubusercontent.com/daoplays/nft_metadata/main/GPT4/DaveDots_1.html?ext=html",
                 "type": "html",
                 "cdn": true
             }
