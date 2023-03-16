@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DaveDots #1</title>
+  <style>
+    body {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      margin: 0;
+    }
+    svg {
+      border: 10px solid black;
+    }
+  </style>
+</head>
+<body>
+  <svg width="2000" height="2000" xmlns="http://www.w3.org/2000/svg" style="background-color: #FFFFFF;">
+  </svg>
+  <script>
+    const svg = document.querySelector('svg');
+
+    function random(min, max) {
+      return Math.random() * (max - min) + min;
+    }
+
+    function randomColor() {
+      const hue = random(0, 360);
+      const saturation = random(60, 100);
+      const lightness = random(40, 70);
+      return `hsl(${hue}, ${saturation}%, ${lightness}%)`;
+    }
+
+    function updateBorderColor() {
+      svg.style.borderColor = randomColor();
+    }
+
+    function createCircle(x, y, radius, color) {
+      const circle = document.createElementNS('http://www.w3.org/2000/svg', 'circle');
+      circle.setAttribute('cx', x);
+      circle.setAttribute('cy', y);
+      circle.setAttribute('r', radius);
+      circle.setAttribute('fill', color);
+      return circle;
+    }
+
+    function harmonicColor(baseHue, i, gridSize) {
+      const hue = (baseHue + (360 * i / gridSize)) % 360;
+      const saturation = random(60, 100);
+      const lightness = random(40, 70);
+      return `hsl(${hue}, ${saturation}%, ${lightness}%)`;
+    }
+
+    function generateComplexPattern() {
+      svg.innerHTML = '';
+
+      const gridSize = Math.floor(random(20, 30));
+      const padding = random(20, 50);
+      const baseHue = random(0, 360);
+      
+      for (let i = 0; i < gridSize; i++) {
+        for (let j = 0; j < gridSize; j++) {
+          const angle = (i + j) * Math.PI * 2 / gridSize;
+          const x = Math.sin(angle) * (i * padding) + svg.clientWidth / 2;
+          const y = Math.cos(angle) * (j * padding) + svg.clientHeight / 2;
+          const radius = random(2, 15);
+          const color = harmonicColor(baseHue, i, gridSize);
+          const circle = createCircle(x, y, radius, color);
+          svg.appendChild(circle);
+        }
+      }
+      updateBorderColor();
+    }
+
+    svg.addEventListener('click', generateComplexPattern);
+
+    generateComplexPattern();
+  </script>
+</body>
+</html>
