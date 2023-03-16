@@ -1,0 +1,44 @@
+{
+    "name": "DaveDots#1",
+    "symbol": "DD",
+    "image": "https://www.arweave.net/Bvy0U8B64WpyQeEM9Aooa6F691acvThDHb_cS9vz2yY/1.png",
+    "description": "GPT4 Generated NFT",
+    "external_url": "",
+    "seller_fee_basis_points": 500,
+    "properties": {
+        "files": [
+            {
+                "uri": "https://www.arweave.net/Bvy0U8B64WpyQeEM9Aooa6F691acvThDHb_cS9vz2yY/1.png",
+                "type": "html"
+            },
+            {
+                "uri": "https://raw.githubusercontent.com/SolDungeon/nft_metadata/main/DungeonMasters/images/1.png",
+                "type": "html",
+                "cdn": true
+            }
+        ],
+        "category": "html"
+    },
+    "attributes": [
+        {
+            "trait_type": "Hue",
+            "value": "0"
+        },
+        {
+            "trait_type": "Saturation",
+            "value": "60"
+        },
+        {
+            "trait_type": "Lightness",
+            "value": "40"
+        },
+        {
+            "trait_type": "Grid",
+            "value": "20"
+        },
+        {
+            "trait_type": "Padding",
+            "value": "2"
+        }
+    ]
+}
